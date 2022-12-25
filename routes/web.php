@@ -22,3 +22,4 @@ Route::controller('App\Http\Controllers\ShippingController')->group(function () 
     Route::post('/shipping', 'costCalculation')->name('shipping.costCalculation');
 });
 
+Route::get('/users', 'App\Http\Controllers\User@index')->name('users');
